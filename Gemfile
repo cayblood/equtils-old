@@ -5,6 +5,7 @@ gem 'heroku'
 group :production do
   gem 'bundler'
   gem 'do_postgres'
+  gem 'dm-postgres-adapter'
   gem 'pg'
 end
 
