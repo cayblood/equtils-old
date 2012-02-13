@@ -15,7 +15,9 @@ end
 
 # Project requirements
 gem 'rake'
+gem 'sinatra'
 gem 'sinatra-flash', :require => 'sinatra/flash'
+gem 'taps', :git => 'https://github.com/dabio/taps.git'
 
 # Component requirements
 gem 'bcrypt-ruby', :require => "bcrypt"
