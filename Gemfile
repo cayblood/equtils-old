@@ -1,5 +1,13 @@
 source :rubygems
 
+# deployment requirements
+gem 'heroku'
+group :production do
+  gem 'bundler'
+  gem 'do_postgres'
+  gem 'pg'
+end
+
 # Server requirements (defaults to WEBrick)
 # gem 'thin'
 # gem 'mongrel'
